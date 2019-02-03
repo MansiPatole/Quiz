@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Quiz</title>
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+
+
+
+  <div id="container">
+
+
+    <div id="header">
+      <h1>Welcome to the Quiz!</h1>
+      <p class="head-p">Test your GK.</p>
+    </div>
+
+
+    <div class="body">
+      <form id="form-control" name="quiz">
+
+        <p>1.What is Heliport?</p>
+        <input class="answer" type="text" name="question1">
+
+        <p>2.What is the basic principle of Miss Universe Competition?</p>
+        <input class="answer" type="text" name="question2">
+        <br><br>
+        <hr>
+
+        <p>3.World Health day is observed on?</p>
+        <input type="radio" class="mcq" name="question3" value="4th April">4th April <br>
+        <input type="radio" class="mcq" name="question3" value="7th April">7th April <br>
+
+        <p>4.Which among the following bodies estimates the national income of India?</p>
+        <input type="radio" class="mcq" name="question4" value="Ministry of Finance">Ministry of Finance <br>
+        <input type="radio" class="mcq" name="question4" value="Central Statistical Office">Central Statistical Office <br>
+
+        <p>5.What is the name of India’s first nuclear reactor ?</p>
+        <input type="radio" class="mcq" name="question5" value="Apsara">Apsara <br>
+        <input type="radio" class="mcq" name="question5" value="Dhruva">Dhruva <br>
+
+        <p>6.In India, the train Lifeline Express is a?</p>
+        <input type="radio" class="mcq" name="question6" value="Bank">Bank <br>
+        <input type="radio" class="mcq" name="question6" value="Hospital">Hospital <br>
+
+        <p>7.Learn from yesterday, live for today, hope for tomorrow.<br>
+          The important thing is not to stop ____________.’ <br>
+          Fill in the blank to complete this quotation by Albert Einstein.?</p>
+        <input type="radio" class="mcq" name="question7" value=" Thinking">Thinking <br>
+        <input type="radio" class="mcq" name="question7" value="Questioning">Questioning <br>
+        <br><br>
+
+        <div class="submit">
+          <input type="button" id="score" value="submit">
+        </div>
+      </form>
+      <div id= "body2">
+       <p id="message"></p>
+       <p id="result"></p>
+      </div>
+    </div>
+
+  </div>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
